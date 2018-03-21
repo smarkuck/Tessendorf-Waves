@@ -73,7 +73,7 @@
     <LibraryPath>D:\programowanie\tessendorf waves\tessendorf waves\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LibraryPath>D:\programowanie\tessendorf waves\tessendorf waves\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
