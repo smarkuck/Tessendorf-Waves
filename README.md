@@ -1,8 +1,12 @@
-### Implementation of J. Tessendorf's paper [_"Simulating Ocean Water"_](http://graphics.ucsd.edu/courses/rendering/2005/jdewall/tessendorf.pdf).
+### Implementation of J. Tessendorf's paper [_"Simulating Ocean Water"_](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.161.9102&rep=rep1&type=pdf).
 
-This program is able to simulate water waves in real time. Application creates Philipps spectrum and then, compute wave heights with reverse FFT.  I included only 32 bit dependencies, so project cannot be compiled in 64bit.
+![alt text](https://github.com/smarkuck/Tessendorf-Waves/blob/master/example.png?raw=true)
+![alt text](https://github.com/smarkuck/Tessendorf-Waves/blob/master/example2.png?raw=true)
+![alt text](https://github.com/smarkuck/Tessendorf-Waves/blob/master/example3.png?raw=true)
 
-#### controls
+This program is able to simulate water waves in real time. Application creates Philipps spectrum and then, compute wave heights with reverse FFT. Included only 32 bit dependencies.
+
+#### Controls
 w,a,s,d - move camera  
 q/e - move camera down/up  
 1 - skybox on/off  
@@ -12,5 +16,4 @@ q/e - move camera down/up
 6/7 - decrease/increase waves height  
 9/0 - decrease/increase waves quality  
 -/+ - decrease/increase view range
-
-
+Esc - exit
