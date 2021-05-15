@@ -15,5 +15,5 @@ q/e - move camera down/up
 4/5 - decrease/increase wind speed  
 6/7 - decrease/increase waves height  
 9/0 - decrease/increase waves quality  
--/+ - decrease/increase view range
+-/+ - decrease/increase view range  
 Esc - exit
